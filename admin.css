@@ -1,0 +1,130 @@
+#regions.postbox .inside
+{
+	margin: 0;
+	padding: 0;
+}
+
+#regions.postbox textarea.tall
+{
+	height: 300px;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Table
+---------------------------------------------------------------------------------------------*/
+table.blocks_input {
+	border: 0 none;
+	background: #fff;
+}
+
+table.blocks_input tbody tr td {
+	padding: 13px 15px;
+	border-top: 1px solid #f5f5f5;
+	border-bottom: 0 none;
+}
+
+table.blocks_input tbody tr td.label {
+	width: 24%;
+	vertical-align: top;
+	background: #F9F9F9;
+	border-top: 1px solid #f0f0f0;
+    border-right: 1px solid #E1E1E1;
+}
+
+table.blocks_input > tbody > tr:first-child > td,
+table.blocks_input > tbody > tr:first-child > td.label {
+	border-top: 0 none;
+}
+
+table.blocks_input td.label ul.hl {
+	margin: 20px 0 0;
+}
+table.blocks_input td.label ul.hl li {
+	margin: 0 3px 0 0;
+	
+}
+
+table.blocks_input td.label ul.hl li a.blocks-button {
+	font-size: 12px;
+	padding: 6px 10px;
+	font-weight: normal;
+}
+
+table.blocks_input tbody tr td.label label {
+	display: block;
+	font-size: 13px;
+	line-height: 1.4em;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 3px;
+	color: #333;
+}
+
+table.blocks_input tbody tr td.label label span.required {
+	color: #f00;
+	display: inline;
+	margin-left: 3px;
+}
+
+
+table.blocks_input tbody tr td.label p {
+	display: block;
+	font-size: 12px;
+	line-height: 1.4em;
+	padding: 0 !important;
+	margin: 3px 0 0 !important;
+	font-style: normal;
+	line-height: 16px;
+	color: #899194;
+}
+
+table.blocks_input input[type="text"],
+table.blocks_input input[type="number"],
+table.blocks_input textarea,
+table.blocks_input select{
+	width: 99.95%;
+	padding: 3px 5px;
+	outline: none;
+}
+
+table.blocks_input select {
+	padding: 2px;
+}
+
+table.blocks_input select option {
+	padding: 3px;
+}
+
+table.blocks_input input[type="text"]:focus,
+table.blocks_input textarea:focus,
+table.blocks_input select:focus {
+	border-color:#98B6CB;
+}
+
+
+ul.blocks-radio-list,
+ul.blocks-checkbox-list {
+	background: transparent !important;
+	position: relative;
+	display: block;
+	padding: 1px;
+	margin: 0;
+}
+
+ul.blocks-radio-list.horizontal,
+ul.blocks-checkbox-list.horizontal {
+	overflow: hidden;
+}
+
+ul.blocks-radio-list.horizontal li,
+ul.blocks-checkbox-list.horizontal li {
+	float: left;
+	margin-right: 20px;
+}
+
+ul.blocks-radio-list li input,
+ul.blocks-checkbox-list li input {
+	margin-top: -1px;
+	margin-right: 5px !important;
+	width: auto !important;
+}
